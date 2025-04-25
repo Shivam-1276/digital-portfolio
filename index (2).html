@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>shivam's Portfolio</title>
+    <style>
+        body <{
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #c4bac4, #2f7898);
+            color: white;
+            text-align: center;
+        }
+        header {
+            background: rgba(0, 0, 0, 0.8);
+            color: white;
+            padding: 15px;
+            font-size: 24px;
+            font-weight: bold;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        nav {
+            background: rgba(255, 255, 255, 0.2);
+            padding: 15px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            flex-wrap: wrap;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            backdrop-filter: blur(5px);
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 18px;
+            padding: 10px 20px;
+            border-radius: 25px;
+            transition: 0.3s ease-in-out;
+            font-weight: bold;
+            background: rgba(0, 0, 0, 0.4);
+        }
+        nav a:hover {
+            background: white;
+            color: #1f4e74;
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .container {
+            max-width: 900px;
+            margin: auto;
+            padding: 20px;
+        }
+        section {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+            transition: 0.3s;
+        }
+        section:hover {
+            transform: scale(1.02);
+        }
+        h2 {
+            color: #000000;
+            font-size: 24px;
+            border-bottom: 2px solid rgb(123, 5, 100);
+            display: inline-block;
+            padding-bottom: 5px;
+        }
+        img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid white;
+            margin-top: 10px;
+            transition: 0.3s;
+        }
+        img:hover {
+            transform: scale(1.8);
+        }
+        video {
+            width: 100%;
+            border-radius: 10px;
+            box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        li {
+            list-style: none;
+            font-size: 18px;
+        }
+        footer {
+            margin-top: 20px;
+            background: rgba(150, 16, 16, 0.8);
+            padding: 10px;
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    <header>Shivam's Portfolio</header>
+
+    <nav>
+        <a href="#personal-info">Personal Info</a>
+        <a href="#academics">Academics</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education-training">Education & Training</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    
+    <div class="container">
+        <section id="personal-info">
+            <h2>Personal Information</h2>
+            <div style="display: flex; align-items: center; text-align: left; padding: 20px;">
+                <div style="flex: 1;">
+                    <p><b>Name:</b>Shivam Lonkar</p>
+                    <p><b>Date of Birth:</b> 12/07/2006</p>
+                    <p><b>Address:</b>baramati , pune</p>
+                </div>
+                <div>
+                    <img src="self.jpg">
+                </div>
+            </div>
+        </section>
+        
+        <section id="academics">
+            <h2>Academics Excellence</h2>    
+            <table style="width: 100%; border-collapse: collapse; margin-top: 10px; text-align: center;">
+                <tr style="background: #0a1648; color: white;">
+                    <th style="border: 1px solid #ddd; padding: 10px;">Examination</th>
+                    <th style="border: 1px solid #ddd; padding: 10px;">Score</th>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 10px;">SSC</td>
+                    <td style="border: 1px solid #ddd; padding: 10px;">87.60%</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 10px;">HSC</td>
+                    <td style="border: 1px solid #ddd; padding: 10px;">76.17%</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 10px;">JEE Mains</td>
+                    <td style="border: 1px solid #ddd; padding: 10px;">92.00%ile</td>
+                </tr>
+                <tr>
+                    <td style="border: 1px solid #ddd; padding: 10px;">MHT-CET</td>
+                    <td style="border: 1px solid #ddd; padding: 10px;">96.11%ile</td>
+                </tr>
+            </table>
+        </section>
+        
+        
+        <section id="projects">
+            <h2>Projects</h2>
+            <p>Check out my previous project:</p>
+            <a href="https://drive.google.com/file/d/1LLzs0BrsBuJDrjttS1qY-CKeaxrc4HG7/view?usp=drivesdk" target="_blank" style="color: rgb(27, 27, 22); font-size: 18px; font-weight: bold; text-decoration: none; padding: 10px 15px; background: rgba(255, 255, 255, 0.2); border-radius: 10px; display: inline-block; transition: 0.3s;">
+                View Project 🔗
+            </a>
+        </section>
+        <section id="skills">
+            <h2>Skills & Attributes</h2>
+            <p><br>✅ Programming Languages - Python, Java, C++, JavaScript.
+                <br>✅ Web Development - HTML, CSS.
+                <br>✅ Problem-Solving & Data Structures - Algorithms, DSA concepts.
+        </section>
+        
+        <section id="education-training">
+            <h2>Educational certificate</h2>
+            <p>Check out my certificate</p>
+            <a href="c:\Users\lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\2A38A4A9316C49E5A833517C45D31070\WhatsApp Image 2025-04-14 at 20.31.09_f0fbade3.jpg" target="_blank" style="color: rgb(66, 9, 18); font-size: 18px; font-weight: bold; text-decoration: none; padding: 10px 15px; background: rgba(255, 255, 255, 0.2); border-radius: 10px; display: inline-block; transition: 0.3s;">View certificate 1 🔗</a>
+            <br> <a href="c:\Users\lenovo\AppData\Local\Packages\5319275A.WhatsAppDesktop_cv1g1gvanyjgm\TempState\8613985EC49EB8F757AE6439E879BB2A\WhatsApp Image 2025-04-14 at 20.36.01_fa606c7d.jpg" target="_blank" style="color: rgb(79, 9, 46); font-size: 18px; font-weight: bold; text-decoration: none; padding: 10px 15px; background: rgba(255, 255, 255, 0.2); border-radius: 10px; display: inline-block; transition: 0.3s;">View certificate 2 🔗</a>
+        </section>
+        
+        <h2>Contact Me</h2>
+        <p><b>📞 Phone:</b> <a href="tel:+919325141564" style="color: rgb(20, 20, 14); text-decoration: none;">7798764369</a></p>
+        <p><b>✉ Email:</b> <a href="mailto:prathambedse@gmail.com" style="color: rgb(31, 31, 19); text-decoration: none;">shivamlonkar2827@gmail.com</a></p>
+        <p><b>✉ LinkedIn:</b> <a href="https://www.linkedin.com/in/shivam-lonkar-2596882a5?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" style="color: rgb(31, 31, 19); text-decoration: none;">Shivam Lonkar</a></p>
+
+        </a></p>
+    </section>
+    <footer>
+        © 2025 Shivam lonkar  | All Rights Reserved from the owner
+    </footer>
+</body>
+</html>
